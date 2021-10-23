@@ -13,7 +13,6 @@ def task1():
     else:
         print("Invalid")
 
-
 def task2():
     a = 100
     b = 56
@@ -32,7 +31,6 @@ def task2():
 
     else:
         print("ANy two two are same")
-
 
 def task3():
     a = 10
@@ -60,13 +58,17 @@ def task4():
 
 # loops here
 def task5():
-    for i in range(0, 5):
+    for i in range(0, 500):
         radius = float(input("Enter radius"))
         area = 3.14 * radius ** 2
         print(area)
 
-task5()
+def task6():
+    x = 0
+    while x < 500:
+        print("Looping", x)
 
+task6()
 
 
 
