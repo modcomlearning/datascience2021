@@ -21,7 +21,9 @@ import  statistics
 print('Mean ', statistics.mean(marks))
 print('Median', statistics.median(marks))
 print('SDEv', statistics.stdev(marks))
-
+# control statements
+# 1. Decision making - condtional statements
+# 2. Loops repeating tasks
 
 
 
